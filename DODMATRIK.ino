@@ -173,14 +173,14 @@ case 0:
   if (mx.displayAnimate()) {
    mx.displayClear();
     mx.setSpriteData(walker,A_WALKER,B_WALKER,walker,A_WALKER,B_WALKER);
-    mx.displayText("KAMI", PA_CENTER, 45, 100, PA_SPRITE, PA_SPRITE);
+    mx.displayText("Welcome", PA_CENTER, 45, 100, PA_SPRITE, PA_SPRITE);
     mx.displayReset(); 
     S++;
       }
   break;
 case 1:
   if (mx.displayAnimate()) {
-     mx.displayText("KELOMPOK 1", PA_CENTER, 100, 100, PA_SCROLL_RIGHT, PA_SCROLL_RIGHT);
+     mx.displayText("Siyoux", PA_CENTER, 100, 100, PA_SCROLL_RIGHT, PA_SCROLL_RIGHT);
      delay(50); 
     S++;
       }
@@ -188,7 +188,7 @@ case 1:
  case 2:
     if (mx.displayAnimate()) {  
     mx.displayClear();
-    mx.displayText("AULINDA", PA_CENTER, 45, 100, PA_SCROLL_LEFT, PA_SCROLL_LEFT);
+    mx.displayText("Siyoux", PA_CENTER, 45, 100, PA_SCROLL_LEFT, PA_SCROLL_LEFT);
     mx.displayReset();
     delay(50);
     S++;               
@@ -196,14 +196,14 @@ case 1:
   break;
 case 3:
   if (mx.displayAnimate()) {
-     mx.displayText("CHIKA", PA_CENTER, 100, 100, PA_RANDOM, PA_RANDOM);
+     mx.displayText("Siyoux", PA_CENTER, 100, 100, PA_RANDOM, PA_RANDOM);
     delay(50); 
     S++;
    break; 
  case 4:
     if (mx.displayAnimate()) {  
     mx.displayClear();
-    mx.displayText("FATIKA", PA_CENTER, 45, 100, PA_SLICE, PA_SLICE);
+    mx.displayText("Siyoux", PA_CENTER, 45, 100, PA_SLICE, PA_SLICE);
     mx.displayReset();
     delay(50);
     S++; 
@@ -212,7 +212,7 @@ case 3:
   case 5:
   if(mx.displayAnimate()) {
     mx.displayClear();
-    mx.displayText("INGKA" , PA_CENTER, 45, 100, PA_RANDOM, PA_RANDOM);
+    mx.displayText("Siyoux" , PA_CENTER, 45, 100, PA_RANDOM, PA_RANDOM);
     delay(50);
     S = 0;}
     break;
